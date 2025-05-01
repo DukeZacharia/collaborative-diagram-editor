@@ -25,8 +25,7 @@ A simple web-based diagram editor that allows users to draw rectangular boxes, c
 
 ## How to Run
 
-```
-Terminal 1
+```Terminal 1
 cd diagrame-editor
 node server.js
 ```
@@ -34,22 +33,22 @@ node server.js
 ```
 Terminal 2
 cd diagrame-editor
-npm start ```
+npm start
+```
 
 
 ## Test collaboration
  - Open the app in two browser tabs or two devices and perform actions (add, move, connect, delete). The diagram will stay synchronized between all connected clients.
 
 
-Terminal logs
+```Terminal logs
 When actions are performed, you will also see logs appearing in the terminal where the WebSocket server is running:
-```
+
 A user connected: j6-XYAFVKTT7RgJxAAAB
 Received action: addBox
 Received action: moveBox
 Received action: addConnection
 ```
-
 
 ## How to Use the Diagram Editor
 
