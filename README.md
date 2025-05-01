@@ -2,7 +2,7 @@
 
 ## Overview
 
-A simple web-based diagram editor that allows users to draw rectangular boxes, connect them with lines, and collaborate in real-time with other users. Actions such as adding, moving, connecting, and deleting boxes are synchronized across all connected clients using WebSockets.
+A simple web based diagram editor that allows users to draw rectangular boxes, connect them with lines, and collaborate in realtime with other users. Actions such as adding, moving, connecting, and deleting boxes are synchronized across all connected clients using WebSockets.
 
 ## Features
 
