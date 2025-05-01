@@ -1,0 +1,41 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+#toolbar {
+  margin-bottom: 10px;
+}
+
+#toolbar button {
+  margin: 0 5px;
+  padding: 8px 12px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+#toolbar button:hover {
+  background-color: #ddd;
+}
+
+#diagram-canvas {
+  border: 2px solid #333;
+  background-color: #f9f9f9;
+  cursor: default;
+}
+
+line {
+  stroke-linecap: round;
+}
+
+rect {
+  rx: 8px;
+  ry: 8px;
+  stroke-width: 2;
+  transition: fill 0.2s, stroke 0.2s;
+}
+
+rect:hover {
+  stroke: #555;
+  stroke-width: 3;
+}
