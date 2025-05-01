@@ -2,7 +2,7 @@
 
 ## Overview
 
-A simple web based diagram editor that allows users to draw rectangular boxes, connect them with lines, and collaborate in realtime with other users. Actions such as adding, moving, connecting, and deleting boxes are synchronized across all connected clients using WebSockets.
+A simple web-based diagram editor that allows users to draw rectangular boxes, connect them with lines, and collaborate in real-time with other users. Adding, moving, connecting, and deleting boxes are synchronized across all connected clients using WebSockets.
 
 ## Features
 
@@ -25,15 +25,15 @@ A simple web based diagram editor that allows users to draw rectangular boxes, c
 
 ## How to Run
 
-cd diagrame-editor
-
 ```
+Terminal 1
+cd diagrame-editor
 node server.js
 ```
 
 ```
-New Terminal
-
+Terminal 2
+cd diagrame-editor
 npm start ```
 
 
@@ -41,12 +41,37 @@ npm start ```
  - Open the app in two browser tabs or two devices and perform actions (add, move, connect, delete). The diagram will stay synchronized between all connected clients.
 
 
+Terminal logs
+When actions are performed, you will also see logs appearing in the terminal where the WebSocket server is running:
+```
+A user connected: j6-XYAFVKTT7RgJxAAAB
+Received action: addBox
+Received action: moveBox
+Received action: addConnection
+```
 
-## How to Run
 
-### 1️⃣ Install dependencies
+## How to Use the Diagram Editor
 
-In the project root (`diagram-editor`):
+### Add a Box
+- Click the **"Add Box"** button.
+- A new rectangular box with a random color will appear at a default position.
 
-```bash
-npm install
+### Move a Box
+- Click and hold on any box.
+- Drag the box to a new position.
+- All connected lines will automatically update as the box moves.
+
+### Connect Boxes
+- Click the **"Connect Boxes"** button to enter **Connect Mode**.
+- Click the first box (starting box).
+- Then click a second box (target box).
+- A line will appear connecting the two boxes.
+- Click the **"Exit Connect Mode"** button to return to normal editing.
+
+### Delete a Box
+- Click on the box you want to delete (it will highlight).
+- Click the **"Delete Selected Box"** button.
+- The box and all its connected lines will be removed.
+
+
