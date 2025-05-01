@@ -55,7 +55,7 @@ function App() {
     });
   };
 
-  // 🔵 Handle Moving the Box
+  // Handle Moving the Box
   const handleMouseMove = (e) => {
     if (selectedBoxId && !isConnectMode) {
       const newX = e.clientX - dragOffset.x;
