@@ -18,6 +18,13 @@ A simple web-based diagram editor that allows users to draw rectangular boxes, c
 - **State Management**: React component state (`useState`)
 - **Backend**: Node.js, Express, Socket.IO
 
+## Technology Justification
+
+- **React**: Chosen for its efficient rendering and component-based architecture, which simplifies UI state management and reactivity.
+- **SVG**: Provides flexibility and scalability for rendering shapes and dynamic lines, especially useful for diagramming tools.
+- **Socket.IO**: Enables real-time bidirectional communication between the server and clients, allowing seamless collaboration.
+
+
 ## Rendering and State Management
 
 - **Rendering**: Implemented using SVG for flexibility with shapes and dynamic lines.
@@ -80,5 +87,12 @@ Received action: addConnection
 - Click on the box you want to delete (it will highlight).
 - Click the **"Delete Selected Box"** button.
 - The box and all its connected lines will be removed.
+
+### Assumptions & Limitations
+- Only rectangular boxes are supported in this version.
+- There is no undo/redo functionality implemented.
+- Real-time collaboration has been tested with up to 4 simultaneous clients.
+- Browser compatibility has been tested primarily on Chrome and Firefox.
+
 
 
