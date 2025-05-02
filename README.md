@@ -92,7 +92,7 @@ Received action: addConnection
 - Only rectangular boxes are supported in this version.
 - There is no undo/redo functionality implemented.
 - Real-time collaboration is designed to support multiple clients; tested with a single client instance.
-- Browser compatibility has been tested primarily on Chrome and Firefox.
+- Browser compatibility has been tested primarily on Chrome.
 
 
 
