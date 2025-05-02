@@ -91,7 +91,7 @@ Received action: addConnection
 ### Assumptions & Limitations
 - Only rectangular boxes are supported in this version.
 - There is no undo/redo functionality implemented.
-- Real-time collaboration has been tested with up to 4 simultaneous clients.
+- Real-time collaboration is designed to support multiple clients; tested with a single client instance.
 - Browser compatibility has been tested primarily on Chrome and Firefox.
 
 
