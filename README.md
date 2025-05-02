@@ -24,6 +24,11 @@ A simple web-based diagram editor that allows users to draw rectangular boxes, c
 - **State**: Managed locally using React's `useState`. Real-time updates are synced via WebSocket events.
 
 ## How to Run
+```cd diagrame-editor
+make sure to see the package.json on the same folder then run npm install to install the dependencies
+
+npm install```
+
 
 ```Terminal 1
 cd diagrame-editor
